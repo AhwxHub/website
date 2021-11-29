@@ -8,7 +8,6 @@ html {
 }
 
 :root {
-//  --bg-color: hsl(49 37% 94%);
   --bg-color: rgba(197, 197, 197, .6);
   --background: rgba(197, 197, 197, .6);
   --typewriterSpeed: 3s;
