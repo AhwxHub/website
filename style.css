@@ -6,6 +6,22 @@ html {
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --bg-color: hsl(49 37% 94%);
+  --typewriterSpeed: 3s;
+  --typewriterCharacters: 24;
+  --gradient: gradient(
+    45deg,
+    #845ec2,
+    #d65db1,
+    #ff6f91,
+    #ff9671,
+    #ffc75f,
+    #f9f871
+    );
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -16,16 +32,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: var(--gradient);
+  background-size: 300%;
+  background-position: left;
+  transition: background-position 1s;
 }
 img {
   max-width: 100%;
   height: auto;
-}
-
-:root {
-  --bg-color: hsl(49 37% 94%);
-  --typewriterSpeed: 3s;
-  --typewriterCharacters: 24;
 }
 
 h1 {
