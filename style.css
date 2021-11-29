@@ -33,10 +33,20 @@ body {
   justify-content: center;
   align-items: center;
   background-image: var(--gradient);
-  background-size: 300%;
+  background-size: 400%;
   background-position: left;
-  transition: background-position 1s;
+  animation: bg-animation 5s infinite alternate;
 }
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }  
+}  
+
 img {
   max-width: 100%;
   height: auto;
