@@ -11,7 +11,7 @@ html {
   --bg-color: hsl(49 37% 94%);
   --typewriterSpeed: 3s;
   --typewriterCharacters: 24;
-  --gradient: gradient(
+  --gradient: linear-gradient(
     45deg,
     #845ec2,
     #d65db1,
@@ -32,7 +32,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: var(--gradient);
+  background: var(--gradient);
   background-size: 400%;
   background-position: left;
   animation: bg-animation 10s infinite alternate;
