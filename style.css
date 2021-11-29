@@ -100,14 +100,3 @@ h1::after {
     transform: translateY(0);
   }
 }
-
-#github-link {
-  position: absolute;
-  bottom: 2em;
-  color: hsl(0 0 0 / 0.7);
-
-  &:hover,
-  &:focus {
-    color: teal;
-  }
-}
