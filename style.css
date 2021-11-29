@@ -1,5 +1,5 @@
 /* import font */
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+/*mport url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');*/
 
 html {
   box-sizing: border-box;
@@ -14,12 +14,12 @@ body {
   padding: 0;
   min-height: 100vh;
   text-align: center;
-  font-family: "JetBrains Mono", monospace;
+  font-family: "Source Code Pro", monospace;
   font-size: small;
   display: flex;
   justify-content: center;
   align-items: center;
-  /*background: #121213; */
+  background: #121213;
 }
 img {
   max-width: 100%;
@@ -32,22 +32,11 @@ img {
   --typewriterCharacters: 24;
 }
 
-body {
-  margin: 0;
-  font-family: "Source Sans Pro", sans-serif;
-  min-height: 100vh;
-  display: grid;
-  place-content: center;
-  text-align: center;
-  background: var(--bg-color);
-}
-
 h1 {
   font-size: clamp(1rem, 3vw + 1rem, 4rem);
   position: relative;
   font-family: "Source Code Pro", monospace;
   position: relative;
-  width: max-content;
 }
 
 h1::before,
