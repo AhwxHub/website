@@ -1,0 +1,72 @@
+/* import font */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  text-align: center;
+  font-family: "JetBrains Mono", monospace;
+  font-size: small;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*background: #121213; */
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.hi {
+  position: relative;
+}
+
+.hi::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  animation: blinktext 0.8s steps(3) infinite;
+}
+
+@keyframes blinktext {
+  0%,50%
+  {
+    opacity: 0;
+  }
+  51%,100%
+  {
+    opacity: 1;
+  }
+}
+
+.hi-header {
+  position: relative;
+  /*color: #03e9f4; */
+  letter-spacing: 4px;
+  font-size: 4em;
+  animation: typing 8s steps(13) infinite;
+  overflow: hidden;
+}
+
+@keyframes typing {
+  0%,90%,100%
+  {
+    width: 0;
+  }
+  30%,60%
+  {
+    width: 457.61px;
+  }
+}
