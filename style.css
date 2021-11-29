@@ -8,8 +8,8 @@ html {
 }
 
 :root {
-  --bg-color: rgba(197, 197, 197, .6);
-  --background: rgba(197, 197, 197, .6);
+  --bg-color: hsl(49 37% 94%);
+  --bamground: rgba(197, 197, 197, .6);
   --typewriterSpeed: 3s;
   --typewriterCharacters: 24;
   --gradient: linear-gradient(
@@ -71,7 +71,8 @@ h1::after {
 }
 
 h1::before {
-  background: var(--bg-color);
+  /*background: var(--bg-color);*/
+  background-color: black;
   animation: typewriter var(--typewriterSpeed)
     steps(var(--typewriterCharacters)) 1s forwards;
 }
