@@ -24,7 +24,7 @@ img {
 
 :root {
   --bg-color: hsl(49 37% 94%);
-  --typewriterSpeed: 6s;
+  --typewriterSpeed: 12s;
   --typewriterCharacters: 24;
 }
 
