@@ -123,7 +123,7 @@ h3::after {
   animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 2s) forwards;
 }
 
-.about {
+.paragraph {
   color: hsl(0 0% 0% / 0.7);
   font-size: 2rem;
   font-weight: 400;
@@ -132,31 +132,13 @@ h3::after {
   animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 4s) forwards;
 }
 
-.learning {
-  color: hsl(0 0% 0% / 0.7);
-  font-size: 2rem;
-  font-weight: 400;
-  opacity: 0;
-  /*transform: translateY(3rem);
-  animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 8s) forwards;
-*/}
-
-.skills {
-  color: hsl(0 0% 0% / 0.7);
-  font-size: 2rem;
-  font-weight: 400;
-  opacity: 0;
-  transform: translateY(3rem);
-  animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 10s) forwards;
-}
-
 .footer {
   color: hsl(0 0% 0% / 0.7);
   font-size: 2rem;
   font-weight: 400;
   opacity: 0;
   transform: translateY(3rem);
-  animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 2s) forwards;
+  animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 6s) forwards;
 }
 
 @keyframes typewriter {
