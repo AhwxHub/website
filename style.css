@@ -106,9 +106,9 @@ h1::after {
   font-size: 2rem;
   font-weight: 400;
   opacity: 0;
-  transform: translateY(3rem);
+  /*transform: translateY(3rem);
   animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 8s) forwards;
-}
+*/}
 
 .skills {
   color: hsl(0 0% 0% / 0.7);
