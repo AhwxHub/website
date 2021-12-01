@@ -111,15 +111,18 @@ h1::after {
 }
 
 .paragraphdiv {
-  background-color: black;
+  background-color: white;
+  border-radius: 25px;
 }
 
 .subtitlediv {
-  background-color: black;
+  background-color: white;
+  border-radius: 25px;
 }
 
 .footerdiv {
-  background-color: black;
+  background-color: white;
+  border-radius: 25px;
 }
 
 @keyframes typewriter {
