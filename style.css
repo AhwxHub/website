@@ -29,7 +29,12 @@ body {
   text-align: center;
   font-family: "Source Code Pro", monospace;
   font-size: small;
-  display: flex;
+  /*display: flex;*/
+  
+  display: grid;
+  grid-template-rows: 30vh 20vh 40vh 10vh;
+  grid-template-columns: auto;
+  
   justify-content: center;
   align-items: center;
   background: var(--gradient);
@@ -114,16 +119,22 @@ h1::after {
 .paragraphdiv {
   background-color: white;
   border-radius: 25px;
+  
+  grid-column: 2 / 3;
 }
 
 .subtitlediv {
   background-color: white;
   border-radius: 25px;
+  
+  grid-column: 1 / 2;
 }
 
 .footerdiv {
   background-color: white;
   border-radius: 25px;
+  
+  grid-column: 4 / 5;
 }
 
 @keyframes typewriter {
