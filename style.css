@@ -33,7 +33,7 @@ body {
   
   display: grid;
   grid-template-rows: 30vh 20vh 40vh 10vh;
-  grid-template-columns: auto;
+  grid-template-columns: 100vw;
   
   justify-content: center;
   align-items: center;
@@ -116,25 +116,36 @@ h1::after {
   animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 6s) forwards;
 }
 
+.hidiv {
+  /*background-color: white;
+  */border-radius: 25px;
+
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+}
+
 .paragraphdiv {
-  background-color: white;
-  border-radius: 25px;
+  /*background-color: white;
+  */border-radius: 25px;
   
-  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  grid-column: 1 / 2;
 }
 
 .subtitlediv {
-  background-color: white;
-  border-radius: 25px;
+  /*background-color: white;
+  */border-radius: 25px;
   
+  grid-row: 1 / 2;
   grid-column: 1 / 2;
 }
 
 .footerdiv {
-  background-color: white;
-  border-radius: 25px;
+  /*background-color: white;
+  */border-radius: 25px;
   
-  grid-column: 4 / 5;
+  grid-row: 4 / 5;
+  grid-column: 1 / 2;
 }
 
 @keyframes typewriter {
