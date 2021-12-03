@@ -1,6 +1,8 @@
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
+
 *, *:before, *:after {
   margin: 0;
   padding: 0;
@@ -42,6 +44,14 @@ body {
   background-position: left;
   animation: bg-animation 10s infinite alternate;
   text-align: center;
+
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+::selection {
+  background-color: rgba(238, 99, 82,1);
+  color: white;
 }
 
 @keyframes bg-animation {
