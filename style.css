@@ -44,7 +44,7 @@ body {
   background-position: left;
   animation: bg-animation 10s infinite alternate;
   text-align: center;
-
+  color: black;
   overflow-y: hidden; /* Hide vertical scrollbar */
   overflow-x: hidden; /* Hide horizontal scrollbar */
 }
